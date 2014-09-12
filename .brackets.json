@@ -1,0 +1,12 @@
+{
+    "jscodehints.detectedExclusions": [
+        "C:/Nodejs/pong/view/js/input.js",
+        "C:/Nodejs/pong/view/js/main.js",
+        "C:/Nodejs/pong/node_modules/socket.io/node_modules/engine.io/node_modules/ws/test/WebSocket.test.js",
+        "C:/Nodejs/pong/node_modules/socket.io/node_modules/engine.io/node_modules/ws/test/WebSocketServer.test.js",
+        "C:/Nodejs/pong/network.js",
+        "C:/Nodejs/pong/node_modules/socket.io/node_modules/socket.io-adapter/node_modules/socket.io-parser/index.js",
+        "C:/Nodejs/pong/node_modules/socket.io/node_modules/socket.io-adapter/index.js",
+        "C:/Nodejs/pong/node_modules/socket.io/node_modules/socket.io-client/coverage/lcov-report/prettify.js"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "socket-pong",
+  "version": "0.0.1",
+  "description": "socket pong game",
+  "dependencies": {
+    "socket.io": "^1.0.6"
+  }
+}

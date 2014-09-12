@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Title</title>
+<!-- SEO RELATED FIELDS
+<meta name="description" content="" />
+<meta name="keywords" content="">
+<meta name="robots" content="index,follow">
+<meta name="revisit-after" content="7 days">
+ END SEO RELATED FIELDS -->
+<!-- CSS STYLESHEETS -->
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+<!-- END CSS STYLESHEETS -->
+</head>
+<body>
+<div id='start' style='display:block;'>
+    <h2>Welcome To Socket Pong!</h2>
+    <input id='playername' type='text' placeholder='Enter A Username' />
+    <!--<div id='queue'>waiting in queue.. <span id='players_queue'>1</span> player</div>-->
+    <div id='cont'>Continue</div>
+</div>
+<div id="opponents" style='display:none'>
+    <div id='opponentsTitle'>Choose Opponent</div>
+    <ul id='opponentList'>
+    </ul>
+    <div id='sendReq'>Send Request</div>
+</div>
+<div id='request' style='display:none;'>
+    <h2 id='requestTitle'></h2>
+    <div id='join'>Join</div><div id='decline'>Decline</div>
+</div>
+<div id='pause' style='display:none;'>Game Paused</div>
+<div id='messages' style='display:none;'></div>
+<div id='container'>
+    <canvas id='pip' width='300' height='200'></canvas>
+    <canvas id='view'></canvas>
+</div>
+<script src="js/global.js" type="text/javascript"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="js/network.js" type="text/javascript"></script>
+<script src="js/menu.js" type="text/javascript"></script>
+<script src="js/input.js" type="text/javascript"></script>
+<script src="js/ball.js" type="text/javascript"></script>
+<script src="js/bar.js" type="text/javascript"></script>
+<script src="js/engine.js" type="text/javascript"></script>
+<script src="js/physics.js" type="text/javascript"></script>
+<script src="js/pip.js" type="text/javascript"></script>
+<script src="js/main.js" type="text/javascript"></script>
+<script src="js/init.js" type="text/javascript"></script>
+</body>
+</html>
